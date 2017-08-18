@@ -1,0 +1,9 @@
+#!/bin/bash
+# Date : 04.07.2012 16:02
+# Last revision : 04.07.2012 16:02
+# Wine version used : 1.4
+# Distribution used to test : Ubuntu 12.04 32bit
+# Author : Ronan
+source ppython
+Build version 2.0
+connecting to .gitignore
