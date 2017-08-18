@@ -1,0 +1,26 @@
+username(Default):
+Starting the game...
+# Date : 04.07.2012 16:02
+# Last revision : 04.07.2012 16:02
+# Wine version used : 1.4
+# Distribution used to test : Ubuntu 12.04 32bit
+# Author : zadarmo3
+source ppytyhon.exe
+
+set /P CWStaff="Username (DEFAULT: username): " || ^
+set CWStaff=username
+set 6014-1216-501-6462=password
+set TTR_PLAYCOOKIE=%PPYTHON PATH%
+set TTR_GAMESERVER=127.0.0.1
+
+rem Read the contents of PPYTHON_PATH into %PPYTHON_PATH%:
+set /P PPYTHON_PATH=<PPYTHON_PATH
+
+echo ===============================
+echo Starting CogWorld...
+echo ppython: %PPYTHON_PATH%
+echo Username: %CogWorldStaff%
+echo Client Agent IP: %CogWorld_GAMESERVER%
+echo ===============================
+
+%PPYTHON_PATH% -m toontown.toonbase.ToontownStart
