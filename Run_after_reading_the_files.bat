@@ -1,8 +1,6 @@
+@echo off
 username:AlphaDog
 password:codemonkey
-@echo off
-(importing file)
-#!bin/bash
 echo TTIGAMESERVER=TTIGAMECOOKIE
 echo bam_info collected
 read of ___dc___ file
